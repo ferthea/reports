@@ -6,13 +6,10 @@ $(document).ready(function(){
   })
 });
 
-setTimeout(() => {
-  $(".remove").on("click", function(){
-    let id = $(this).attr("data-id");
-    confirmRemove(id);
-    console.log(id);
-  })
-}, 5000);
+$("#map").on("click", ".remove", function(){
+  let id = $(this).attr("data-id");
+  confirmRemove(id);
+})
 
 function confirmRemove(id){
   console.log(id);
