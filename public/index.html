@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Refugios</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <nav class="blue lighten-1">
@@ -18,7 +19,8 @@
         <div class="col l8 s10 offset-l2 offset-s1">
 
           <div class="row" id="titulo">
-            <h5>Zonas de refugio</h5>
+            <h5>Zonas de refugio
+            <i id="current_position" class="material-icons right">my_location</i></h5>
           </div>
 
           <div id="map">
@@ -27,11 +29,12 @@
         </div>
       </div>
     </div>
-    
+
    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDESa3wbZZFlzBSxQPkaoz9WZde5TCdrP0&callback=initMap"
   type="text/javascript"></script>
-  <script type="text/javascript" src="scripts/script.js"></script>
+  <script type="text/javascript" src="/scripts/map.js"></script>
+  <script type="text/javascript" src="/scripts/script.js"></script>
   </body>
 </html>
