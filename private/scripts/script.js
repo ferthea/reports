@@ -12,7 +12,7 @@ setTimeout(() => {
     confirmRemove(id);
     console.log(id);
   })
-}, 3000);
+}, 5000);
 
 function confirmRemove(id){
   console.log(id);
